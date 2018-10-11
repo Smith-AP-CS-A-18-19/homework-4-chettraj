@@ -37,6 +37,9 @@ public class Homework4 {
 	 * the integer portion of the provided double
 	 */
 	 public int remainder(double d) {
+		 /* I wanted you to flip the two. So import junit.framework.TestCase;
+		  * should have been sample % (int) default:
+		  */
 		 int mo = (int) d % sample;
 		 return mo;
 
