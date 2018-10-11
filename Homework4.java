@@ -3,7 +3,13 @@ public class Homework4 {
 	/* Finish the constructor and create any necessary instance
 	 * variables
 	 */
+	private String string;
+	private int sample;
+
 	public Homework4(String s, int i) {
+		string = s;
+		sample = i;
+
 
 	}
 
@@ -12,6 +18,8 @@ public class Homework4 {
 	 * multiplication
 	 */
 	public int multiply(double d) {
+		double o = d*sample;
+		return (int) o;
 
 	}
 
@@ -19,6 +27,9 @@ public class Homework4 {
 	 * product by the stored number
 	 */
 	public double sumProduct(int a, double b) {
+		double k = a + b;
+		double p = k*sample;
+		return p;
 
 	}
 
@@ -26,12 +37,16 @@ public class Homework4 {
 	 * the integer portion of the provided double
 	 */
 	 public int remainder(double d) {
+		 int mo = (int) d % sample;
+		 return mo;
 
 	}
 
 	/* Return the length of the stored String
 	 */
 	public int getLength() {
+		int f = string.length();
+		return f;
 
 	}
 
@@ -39,6 +54,8 @@ public class Homework4 {
 	 * String. Put a space between the two Strings
 	 */
 	public String concat(String s) {
+		String lol = string + " " + s;
+		return lol;
 
 	}
 
