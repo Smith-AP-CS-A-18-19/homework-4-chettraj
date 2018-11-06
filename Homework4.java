@@ -1,4 +1,6 @@
+
 public class Homework4 {
+
 
 	/* Finish the constructor and create any necessary instance
 	 * variables
@@ -40,7 +42,7 @@ public class Homework4 {
 		 /* I wanted you to flip the two. So import junit.framework.TestCase;
 		  * should have been sample % (int) default:
 		  */
-		 int mo = (int) d % sample;
+		 int mo = sample % (int) d;
 		 return mo;
 
 	}
